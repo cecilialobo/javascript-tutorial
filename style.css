@@ -1,0 +1,158 @@
+body {
+    width: 45rem;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+}
+
+h1, h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+.jsBox {
+    display: inline-flex;
+    background-color: #ffe270;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 4rem;
+    height: 4rem;
+    padding-right: 0.5rem;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.gitLink {
+   text-decoration: none; 
+   color: #B40456;
+}
+
+div {
+    margin: 5rem auto;
+    padding: 0 1rem;
+    border: #ffe270 0.1em solid;
+}
+
+p {
+    line-height: 2;
+}
+
+#pDiv3 {
+    margin-top: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+i {
+    font-size: 2rem;
+    color: #FF8811;
+}
+
+.codeSnippet {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    font-weight: 400;
+    /* background-color: #E9E9ED; */
+    width: 100%;
+    border: none;
+}
+
+.codeSnippet:focus {
+    outline: 0;
+}
+
+span.codeSnippet {
+    background-color: #E9E9ED;
+}
+
+.link {
+    background: none;
+    color: #603483;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 0;
+    font-weight: 700;
+}
+
+.link:hover {
+    color: #FF8811;
+}
+
+.input {
+    margin: 1.5em 0;
+    background-color: #DDDDE3;
+    height: 2em;
+    width: 15em;
+}
+
+.checkCode {
+    height: 2rem;
+    border: none;
+    background-color: #B40456;
+    opacity: 0.8;
+    border-radius: 0.5em;
+    color: snow;
+}
+
+.copyButton {
+    background: none;
+    color: #8F8FA3;
+    border: none;
+    display: block;
+    margin-bottom: 1em;
+}
+
+div a {
+    font-weight: 700;
+    text-decoration: #FF8811;
+}
+
+p a {
+    font-weight: 700;
+    text-decoration: #FF8811;
+}
+
+a:hover {
+    color: #FF8811;
+}
+
+.variables {
+    font-weight: 700;
+}
+
+.input {
+    margin-top: 0;
+}
+
+#if {
+    margin-top: 0;
+    margin-bottom: 2em;
+    width: fit-content;
+    padding: 0 3em;
+    border: #B40456 0.15em solid;
+    opacity: 0.8;
+}
+
+.ifCondition {
+    font-weight: 700;
+}
+
+.note {
+    font-weight: 700;
+}
+
+ul {
+    line-height: 1.5;
+}
+
+#restart {
+    margin: 1em 2em 2em 2em;
+    width: 10em;
+}

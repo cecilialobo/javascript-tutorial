@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Beginners Tutorial | by Cecilia Lobo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto+Mono:wght@300;400;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba5ff8c0a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1><span class="jsBox">JS</span> Beginners Tutorial</h1>
+    <h3>by <a class="gitLink" target="_blank" href="https://github.com/cecilialobo">Cecilia Lobo</a></h3>
+    <h2>What is javaScript?</h2>
+    <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit 
+       there and display static information for you to look at, like displaying interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved.</p>
+    <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. 
+       The standard for JavaScript is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1.</p>
+    <p>It is the third layer of the layer cake of standard web technologies, the first two are <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">HTML</a> and <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Glossary/CSS">CSS</a>.</p>
+    <p>Whenever you're ready, click <a tabindex="0" class="link" id="link1">here</a> to dive deep into the JS world!</p>    
+
+    <div class="hidden" id="div1">
+        <h2>Console</h2>
+        <h3>The Developer Tools</h3>
+        <p>The Browser Developer Tools is a set of web developer tools built into your browser. You can use them to examine, edit, and debug HTML, CSS, and JavaScript.</p>
+        <h3>Interacting with JS in the browser</h3>
+        <p>One of the tools you have in the browser is the Console. You can use the console to see messages logged by a web page and interact with the page using JavaScript.</p> 
+        <p>The console method <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Console/log">log( )</a> outputs a message to the web Console. </p>
+        <p>But how to write a console.log in the Console? Type the following snippet of code in the box below and press check code.</p>
+        <input type="text" class="codeSnippet" id="codeSnippet1" value='console.log ("Hello, World!")'></input>
+        <button class="copyButton" id="copyButton1">Copy to clipboard</button>
+        <input class="input" id="input1" type="text">
+        <button class="checkCode" id="checkCode1">Check code</button>
+    </div>
+
+    <div class="hidden" id="p1">
+        <p><i class="fas fa-award"></i> Awesome!! Now, open your Console to see the output of the code you just typed! To go on, click <a class="link" id="link2">here</a> 
+        and let's see how JS stores the information it needs!</p>
+    </div>
+
+    <div class="hidden" id="div2">
+        <h2>Variables</h2>
+        <h3>What is a variable?</h3>
+        <p>A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence. But one special thing about variables is that their contained values can change. </p>
+        <p>JavaScript has three kinds of variable declarations:</p>
+        <p><span class="variables">var</span> Declares a variable, optionally initializing it to a value.</p>
+        <p><span class="variables">let</span> Declares a block-scoped, local variable, optionally initializing it to a value.</p>
+        <p><span class="variables">const</span> Declares a block-scoped, read-only named constant.</p>    
+        <p>Give it a try. In the box below, type:</p> 
+        <input type="text" class="codeSnippet" id="codeSnippet2" value='let myVariable = "My first variable"'></input>
+        <button class="copyButton" id="copyButton2">Copy to clipboard</button>
+        <input class="input" id="input2" type="text">
+        <button class="checkCode" id="checkCode2">Check code</button>
+    </div>
+    
+    <div class="hidden" id="div3">
+        <p><i class="fas fa-trophy"></i> Amazing! You just created your first variable. Now let's try with <span class="codeSnippet">const</span>.</p> 
+        <input type="text" class="codeSnippet" id="codeSnippet3" value='const otherVariable = "My second variable"'></input>
+        <button class="copyButton" id="copyButton3">Copy to clipboard</button>
+        <input class="input" id="input3" type="text">
+        <button class="checkCode" id="checkCode3">Check code</button>
+        <p id="pDiv3">Now try it in your Console! Create other variables and try changing its values.</p>
+    </div>
+    
+    <div class="hidden" id="div4">
+        <p>To discover more about variables, here is a useful <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables">link</a>.</p>
+        <p>So far so good! Now, let's see what type of variables there are in JavaScript. Click <a class="link" id="link3">here</a> to go on!</p>
+    </div>    
+    
+    <div class="hidden" id="div5">
+        <h2>Data Types</h2>
+        <p>There are a few different types of data we can store in variables.</p>
+        
+        <h3>Numbers</h3>
+        <p>You can store numbers in variables, either whole numbers like 30 (also called integers) or decimal numbers like 2.456 (also called floats or floating point numbers).</p>
+        
+        <h3>Strings</h3>
+        <p>Strings are pieces of text. When you give a variable a string value, you need to wrap it in single or double quote marks; otherwise, JavaScript tries to interpret it as another variable name. So <span class="codeSnippet">"my first variable"</span> is a string type variable.</p>
+        
+        <h3>Booleans</h3>
+        <p>Booleans are true/false values — they can have two values, <span class="codeSnippet">true</span> or <span class="codeSnippet">false</span>. These are generally used to test a condition, after which code is run as appropriate.</p>
+        <p>Now that you learned a lot of concepts, let's try something a little more interactive? It's time to <a class="link" id="link4">ALERTS</a>!</p>
+    </div>
+
+    <div class="hidden" id="div6">
+        <h2>alert ( )</h2>
+        <p>It's a native JavaScript function that comes with every browser. It shows a message and waits for the user to press “OK”.</p>
+        <p>The mini-window with the message is called a modal window. The word “modal” means that the visitor can’t interact with the rest of the page, press other buttons, etc, until they have dealt with the window. In this case – until they press “OK”.</p>
+        <p>Let's make our first alert. Type in the box below:</p>
+        <input type="text" class="codeSnippet" id="codeSnippet4" value='alert("This is my first alert!")'></input>
+        <button class="copyButton" id="copyButton4">Copy to clipboard</button>
+        <input class="input" id="input4" type="text">
+        <button class="checkCode" id="checkCode4">Check code</button>
+    </div>
+
+    <div class="hidden" id="div7">
+        <p><i class="far fa-laugh-wink"></i> You did your first alert! Pretty exciting right? Now let's discover the <a class="link" id="link5">PROMPT</a>!</p>
+    </div>
+
+    <div class="hidden" id="div8">
+        <h2>prompt ( )</h2>
+        <p>It's a method that displays a dialog box that prompts the visitor for input.</p>
+        <p>A box is often used if you want the user to input a value before entering a page.</p>
+        <p>The <span class="codeSnippet">prompt ( )</span> method returns the input value if the user clicks "OK". If the user clicks "cancel" the method returns null.</p>
+        <p><span class="note">NOTE:</span> When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value. Do not overuse this method, as it prevents the user from accessing other parts of the page until the box is closed.</p>
+        <p>Type in the box below and see what a prompt looks like:</p>
+        <input type="text" class="codeSnippet" id="codeSnippet5" value='prompt("Are you enjoying the tutorial so far?")'></input>
+        <button class="copyButton" id="copyButton5">Copy to clipboard</button>
+        <input class="input" id="input5" type="text">
+        <button class="checkCode" id="checkCode5">Check code</button>
+    </div>
+
+    <div class="hidden" id="div9">
+        <p><i class="fas fa-chart-line"></i> Wow! Do you realize how much JS you have learned so far? Now, what about <a class="link" id="link6">loops</a>?</p>
+    </div>
+
+    <div class="hidden" id="div10">
+        <h2>for Loop</h2>
+        <p>A for loop repeats until a specified condition evaluates to <span class="codeSnippet">false</span>.</p>
+        <p>A for statement looks as follows:</p>
+        <p><span class="codeSnippet">for([i];[condition];[increment]){ }</span></p>
+        <p>When a for loop executes, the following occurs:</p>
+            <p>The initializing expression <span class="codeSnippet">[i]</span> usually initializes one or more loop counters, but the syntax allows an expression of any degree of complexity. This expression can also declare variables.
+            The <span class="codeSnippet">condition</span> expression is evaluated. If the value of <span class="codeSnippet">condition</span> is <span class="codeSnippet">true</span>, the loop statements execute. If the value is <span class="codeSnippet">false</span>, the for loop terminates.
+        </p>
+        <p>Type in the box below the for Loop and check your Console to see the output:</p>
+        <input type="text" class="codeSnippet" id="codeSnippet6" value="for (var i = 0; i <= 6; i++) {console.log (i)}"></input>
+        <button class="copyButton" id="copyButton6">Copy to clipboard</button>
+        <input class="input" id="input6" type="text">
+        <button class="checkCode" id="checkCode6">Check code</button>
+    </div>
+
+    <div class="hidden" id="div11">
+        <p>Now check your Console to see the output of the for Loop.</p> 
+        <p> <i class="fas fa-flag-checkered"></i> You are almost at the finish line! What <a class="link" id="link7">if...</a></p>
+    </div>
+
+    <div class="hidden" id="div12">
+        <h2>if... else</h2>
+        <p>The if statement executes a statement if a specified condition is truthy. If the condition is falsy, another statement can be executed (else).</p>
+        <div id="if">
+            <p class="ifCondition">if (condition) {</p>
+            <p>    statement 1</p>
+            <p class="ifCondition">} else {</p>
+            <p>    statement 2</p>
+            <p class="ifCondition">}</p>
+        </div>
+        <p>Multiple <span class="codeSnippet">if...else</span> statements can be nested to create an else if clause.</p>
+        <p><span class="note">NOTE:</span> There is no elseif (in one word) keyword in JavaScript.</p>
+        <p><i class="far fa-laugh-beam"></i> Congrats making all the way here! This is the end of this tutorial, for more information and insights on JS, <a class="link" id="link8">here</a> are some links.</p>
+    </div>
+    <div class="hidden" id="div13">
+        <h2>Useful Links</h2>
+        <ul>
+            <li><a class="link" target="_blank" href="https://eloquentjavascript.net/">Eloquent JavaScript</a></li>
+            <li><a class="link" target="_blank" href="https://jgthms.com/javascript-in-14-minutes/">JavaScript in 14 minutes</a></li>
+            <li><a class="link" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN JavaScript</a></li>
+        </ul>
+        <button class="checkCode" id="restart">Restart</button>
+    </div>
+</body>
+    <script src="jsStarters.js"></script>
+</html>
